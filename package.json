@@ -10,12 +10,21 @@
     "seeder": "node utils/seeder"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "mongoose": "^6.0.11",
     "next": "11.1.2",
+    "next-absolute-url": "^1.2.2",
     "next-connect": "^0.11.0",
+    "next-redux-wrapper": "^7.0.5",
     "next-safe": "^3.1.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-bootstrap": "^2.0.0",
+    "react-dom": "17.0.2",
+    "react-redux": "^7.2.6",
+    "react-toastify": "^8.0.3",
+    "redux": "^4.1.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.0"
   },
   "devDependencies": {
     "colors": "^1.4.0",
