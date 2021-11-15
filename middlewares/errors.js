@@ -18,7 +18,6 @@ export default (err, req, res, next) => {
     error = new ErrorHandler(message, 400);
   }
 
-  error.message = err.message;
   res.status(err.statusCode).json({
     success: false,
     error,
