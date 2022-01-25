@@ -9,7 +9,7 @@ import catchAsyncErrors from '../middlewares/catchAsyncErrors';
 const registerUser = catchAsyncErrors(async (req, res) => {
   const { name, email, password } = req.body;
 
-  await User.create({
+  const user = await User.create({
     name,
     email,
     password,

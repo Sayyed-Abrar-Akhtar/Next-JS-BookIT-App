@@ -15,6 +15,7 @@
     "mongoose": "^6.0.11",
     "next": "11.1.2",
     "next-absolute-url": "^1.2.2",
+    "next-auth": "^4.1.0",
     "next-connect": "^0.11.0",
     "next-redux-wrapper": "^7.0.5",
     "next-safe": "^3.1.0",

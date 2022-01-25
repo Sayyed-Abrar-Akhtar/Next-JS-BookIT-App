@@ -7,7 +7,7 @@ const Header = () => {
       <div className='container'>
         <div className='col-3 p-0'>
           <div className='navbar-brand'>
-            <Link href='/'>
+            <Link href='/' passHref>
               <img
                 src='/images/bookit_logo.png'
                 style={{ cursor: 'pointer' }}
@@ -18,9 +18,11 @@ const Header = () => {
         </div>
 
         <div className='col-3 mt-3 mt-md-0 text-center'>
-          <a className='btn btn-danger px-4 text-white login-header-btn float-right'>
-            Login
-          </a>
+          <Link href='/login' passHref>
+            <a className='btn btn-danger px-4 text-white login-header-btn float-right'>
+              Login
+            </a>
+          </Link>
         </div>
       </div>
     </nav>
